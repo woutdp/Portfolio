@@ -1,0 +1,9 @@
+version: "3"
+services:
+  backend:
+    volumes:
+      - ./backend:/backend
+  frontend:
+    command: npm run dev
+    volumes:
+      - ./frontend:/frontend
