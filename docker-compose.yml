@@ -1,8 +1,8 @@
-version: "2"
-
+version: "3"
 services:
-  web:
-    build: .
+  backend:
+    container_name: portfolio_backend
+    build: ./backend
     command: gunicorn --config ./gunicorn_config.py wsgi:app
     volumes:
       - .:/app
