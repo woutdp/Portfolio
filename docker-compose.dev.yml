@@ -7,3 +7,5 @@ services:
     command: npm run dev
     volumes:
       - ./frontend:/frontend
+    ports:
+      - "10000:10000"
