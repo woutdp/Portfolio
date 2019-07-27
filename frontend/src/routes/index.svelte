@@ -41,4 +41,6 @@
 <figure>
 	<img alt='Borat' src='great-success.png'>
 	<figcaption>HIGH FIVE!</figcaption>
+	<figcaption>HIGH FIVE!</figcaption>
+	<figcaption>HIGH FIVE!</figcaption>
 </figure>
