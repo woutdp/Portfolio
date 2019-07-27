@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "portfolio-wout-de-puysseleir",
+  "description": "Portfolio - Wout De Puysseleir",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
