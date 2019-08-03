@@ -14,9 +14,15 @@
         grid-template-areas:
             'main' \
             'footer'
+
+    main
+        grid-area: main
 </style>
 
 <div class="grid-container">
-    <slot></slot>
+    <main>
+        <slot></slot>
+    </main>
+
     <Footer/>
 </div>

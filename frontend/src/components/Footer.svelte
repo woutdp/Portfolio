@@ -7,8 +7,7 @@
         grid-area: footer;
         display: flex;
         flex-direction: column;
-        padding: 20px;
-        margin: 20px auto;
+        padding: 40px 20px;
 
         +mobile()
             flex-direction: column
@@ -23,12 +22,8 @@
         padding: 0
         margin-bottom: 20px
 
-        +above('s')
-            :not(:first-child)
-                margin-left: 20px
-
-        +mobile()
-            flex-direction: column
+        :not(:first-child)
+            margin-left: 20px
 
     li
         display: block
@@ -40,11 +35,11 @@
 
 <footer>
     <ul>
-        <li><a rel="noopener" target="_blank" href="https://github.com/woutdp" >GitHub</a></li>
+        <li><a rel="noopener" target="_blank" href="https://github.com/woutdp">GitHub</a></li>
         <li><a rel="noopener" target="_blank" href="https://www.linkedin.com/in/woutdp/">LinkedIn</a></li>
         <li><a rel="noopener" target="_blank" href="mailto:contact@wout.space">Email</a></li>
     </ul>
     <p>
-        © { currentYear } Made by Wout De Puysseleir with &lt;3,&nbsp;<a rel="noopener" target="_blank" href="https://svelte.dev/">Svelte</a>&nbsp;&&nbsp;<a rel="noopener" target="_blank" href="https://sapper.svelte.dev/">Sapper</a>
+        © { currentYear } Made by Wout De Puysseleir with&nbsp;&lt;3,&nbsp;<a rel="noopener" target="_blank" href="https://svelte.dev/">Svelte</a>&nbsp;&&nbsp;<a rel="noopener" target="_blank" href="https://sapper.svelte.dev/">Sapper</a>
     </p>
 </footer>
