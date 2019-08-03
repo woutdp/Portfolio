@@ -40,11 +40,11 @@
 
 <footer>
     <ul>
-        <li><a href="https://github.com/woutdp" target="_blank">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/woutdp/" target="_blank">LinkedIn</a></li>
-        <li><a href="mailto:contact@wout.space" target="_blank">contact@wout.space</a></li>
+        <li><a rel="noopener" target="_blank" href="https://github.com/woutdp" >GitHub</a></li>
+        <li><a rel="noopener" target="_blank" href="https://www.linkedin.com/in/woutdp/">LinkedIn</a></li>
+        <li><a rel="noopener" target="_blank" href="mailto:contact@wout.space">Email</a></li>
     </ul>
     <p>
-        © { currentYear } Made by Wout De Puysseleir with &lt;3,&nbsp;<a href="https://svelte.dev/" target="_blank">Svelte</a>&nbsp;&&nbsp;<a href="https://sapper.svelte.dev/" target="_blank">Sapper</a>
+        © { currentYear } Made by Wout De Puysseleir with &lt;3,&nbsp;<a rel="noopener" target="_blank" href="https://svelte.dev/">Svelte</a>&nbsp;&&nbsp;<a rel="noopener" target="_blank" href="https://sapper.svelte.dev/">Sapper</a>
     </p>
 </footer>
