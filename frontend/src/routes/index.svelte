@@ -1,38 +1,34 @@
 <style lang="stylus">
-    h1, figure, p
-        text-align: center
-        margin: 0 auto
+    main
+        grid-area: main
 
-    h1
-        font-size: 2.8em
-        text-transform: uppercase
-        font-weight: 700
-        margin: 0 0 0.5em 0
-        glitch: 42px #f00 #00f 2px
+    .landing
+        padding: 20px
 
-    figure
-        margin: 0 0 1em 0
-
-    img
-        width: 100%
-        max-width: 400px
-        margin: 0 0 1em 0
-
-    p
-        margin: 1em auto
-
-    @media (min-width: 480px)
         h1
-            font-size: 4em
+            font-size: 2.8em
+            font-weight: 700
+            text-align: center
+
+            +from-width(4)
+                font-size: 4em
 </style>
 
 <svelte:head>
     <title>Wout De Puysseleir</title>
 </svelte:head>
 
-<h1>Great success!</h1>
-
-<figure>
-    <img alt='Borat' src='great-success.png'>
-    <figcaption>HIGH FIVE!</figcaption>
-</figure>
+<main>
+    <div class="landing center full-page">
+        <h1>Wout De&nbsp;Puysseleir</h1>
+        <h2>Full-Stack Web Developer</h2>
+    </div>
+    <div class="section">
+        <div class="container">
+            <h1>About Me</h1>
+            <p>I'm a freelance web developer. The sharpest tools in my toolbox are <code>Python (2, 3)</code>, <code>Django</code>, <code>Vue</code> and <code>Docker</code>.</p>
+            <p>When I'm not programming you can see me hiking up a mountain, drinking a cocktail or watching a movie.</p>
+            <p>Born in Belgium, currently living in Vancouver, Canada.</p>
+        </div>
+    </div>
+</main>

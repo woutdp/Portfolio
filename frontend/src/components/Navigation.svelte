@@ -4,23 +4,19 @@
 
 <style lang="stylus">
     nav
-        border-bottom: 1px solid rgba(255,62,0,0.1)
-        font-weight: 300
+        grid-area: nav
         padding: 0 1em
+        margin: 20px
 
     ul
+        display: flex
+        justify-content: space-between
         margin: 0
         padding: 0
-
-    /* clearfix */
-    ul::after
-        content: ''
-        display: block
-        clear: both
+        text-align: center
 
     li
         display: block
-        float: left
 
     .selected
         position: relative

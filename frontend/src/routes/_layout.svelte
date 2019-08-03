@@ -1,21 +1,22 @@
 <script>
-    import Navigation from '../components/Navigation.svelte';
+    import Footer from '../components/Footer.svelte';
 
     export let segment;
 </script>
 
-<style lang="stylus">
-    main
-        position: relative
-        max-width: 56em
-        background-color: white
-        padding: 2em
-        margin: 0 auto
-        box-sizing: border-box
+<style global lang="stylus">
+    @import '../styles/global'
+
+    .grid-container
+        min-height: 100%
+        display: grid
+        grid-template-rows: 1fr auto;
+        grid-template-areas:
+            'main' \
+            'footer'
 </style>
 
-<Navigation {segment}/>
-
-<main>
+<div class="grid-container">
     <slot></slot>
-</main>
+    <Footer/>
+</div>
