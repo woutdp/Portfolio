@@ -45,6 +45,6 @@
         <li><a href="mailto:contact@wout.space" target="_blank">contact@wout.space</a></li>
     </ul>
     <p>
-        © { currentYear } Made by Wout De Puysseleir with&nbsp;love,&nbsp;<a href="https://svelte.dev/" target="_blank">Svelte</a>&nbsp;&&nbsp;<a href="https://sapper.svelte.dev/" target="_blank">Sapper</a>
+        © { currentYear } Made by Wout De Puysseleir with &lt;3,&nbsp;<a href="https://svelte.dev/" target="_blank">Svelte</a>&nbsp;&&nbsp;<a href="https://sapper.svelte.dev/" target="_blank">Sapper</a>
     </p>
 </footer>

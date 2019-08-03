@@ -26,7 +26,10 @@
     <div class="section">
         <div class="container">
             <h1>About Me</h1>
-            <p>I'm a freelance web developer. The sharpest tools in my toolbox are <code>Python (2, 3)</code>, <code>Django</code>, <code>Vue</code> and <code>Docker</code>.</p>
+            <p>
+                I'm a freelance web developer. The sharpest tools in my toolbox are <code>Python (2, 3)</code>, <code>Django</code>, <code>Vue</code> and <code>Docker</code>.
+                I really like the <a href="https://github.com/morhetz/gruvbox-contrib" target="_blank">Gruvbox</a> colorscheme.
+            </p>
             <p>When I'm not programming you can see me hiking up a mountain, drinking a cocktail or watching a movie.</p>
             <p>Born in Belgium, currently living in Vancouver, Canada.</p>
         </div>
