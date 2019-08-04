@@ -43,6 +43,7 @@
         <li><a rel="noopener" target="_blank" href="mailto:contact@wout.space">Email</a></li>
     </ul>
     <p>
-        © { currentYear } Made by Wout De Puysseleir with&nbsp;&lt;3,&nbsp;<a rel="noopener" target="_blank" href="https://svelte.dev/">Svelte</a>&nbsp;&&nbsp;<a rel="noopener" target="_blank" href="https://sapper.svelte.dev/">Sapper</a>
+        © { currentYear } Made by Wout De Puysseleir
+        with&nbsp;&lt;3,&nbsp;<a rel="noopener" target="_blank" href="https://svelte.dev/">Svelte</a>&nbsp;&&nbsp;<a rel="noopener" target="_blank" href="https://sapper.svelte.dev/">Sapper</a>&nbsp;-&nbsp;<a rel="noopener" target="_blank" href="https://github.com/woutdp/portfolio">Source Code</a>
     </p>
 </footer>
