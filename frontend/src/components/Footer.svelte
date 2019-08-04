@@ -3,8 +3,11 @@
 </script>
 
 <style lang="stylus">
+    @import '../styles/variables'
+
     footer
         grid-area: footer;
+        background-color: background
         display: flex;
         flex-direction: column;
         padding: 40px 20px;
