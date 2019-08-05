@@ -6,6 +6,15 @@
             text-align: center
             margin-bottom: 10px
 
+            +below(460px)
+                font-size: 2.5em;
+
+            +below(420px)
+                font-size: 2.2em;
+
+            +below(350px)
+                font-size: 2em;
+
             +above(4)
                 margin-bottom: 20px
                 font-size: 4em
