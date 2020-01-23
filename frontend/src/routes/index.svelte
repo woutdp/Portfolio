@@ -39,6 +39,6 @@
             adapting more of my tools to the <a rel="noopener" target="_blank" href="https://github.com/morhetz/gruvbox-contrib">Gruvbox</a> colorscheme,
             drinking a cocktail or watching a movie.
         </p>
-        <p>Born in Belgium, currently living in Vancouver, Canada.</p>
+        <p>Born and raised in Belgium, living in Vancouver, Canada.</p>
     </div>
 </section>
